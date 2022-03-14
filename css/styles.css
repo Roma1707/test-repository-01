@@ -1,26 +1,13 @@
+body {
+  background-color: grey;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.list {
+  color: brown;
+}
 
-.post {
-    /* Стили статьи */
-    color: blue;
-  }
-  
-  .post-title {
-    /* Стили заголовка */
-color: aqua;
-  }
-  
-  .post-text {
-    /* Стили текста */
-color: brown;
-  }
-  
-  .post-link {
-    /* Стили ссылки */
-color: darkmagenta;
-  }
-  
-  .post-link:hover {
-    /* Стили ссылки при ховере */
-color: rgb(238, 15, 15);
-  }
+.li {
+  color: black ;
+}
