@@ -1,7 +1,73 @@
-footer {
-  background-color: brown;
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+:root {
+  /* Основные шрифты */
+  --main-font: "Open Sans", sans-serif;
+  --secondery-font: "Raleway", sans-serif;
+
+  /* Цвет текста */
+
+  /* Цвет фона */
 }
 
-header {
-  background-color: darkcyan;
+/* Основной текст */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.main-btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* header */
+.nav-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: #ff6c00;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ff6c00;
 }
