@@ -4,11 +4,26 @@ font-family: 'Raleway', sans-serif; */
 :root {
   /* Основные шрифты */
   --main-font: "Open Sans", sans-serif;
-  --secondery-font: "Raleway", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-cl: #ff6c00;
 
-  /* Цвет текста */
+  /* Светлая тема текста */
+  --primary-txt--mode-light: #555555;
+  --secondary-txt--mode-light: #303030;
+  --main-txt--mode-light: #555555;
 
-  /* Цвет фона */
+  /* Темная тема текста*/
+  --primary-txt--mode-dark: #ffffff;
+  --secondary-txt--mode-dark: rgba(157, 164, 189, 0.6);
+  --main-txt--mode-dark: #9da4bd;
+
+  /* Светлая тема фона*/
+  --primary-bg--mode-light: #ffffff;
+  --secondary-bg--mode-light: #f7f7f7;
+
+  /* Темная тема фона*/
+  --primary-bg--mode-dark: #191c26;
+  --secondary-bg--mode-dark: #111319;
 }
 
 /* Основной текст */
@@ -66,8 +81,41 @@ body {
 
   color: #ff6c00;
 }
-
 .nav-link:hover,
 .nav-link:focus {
   color: #ff6c00;
+}
+
+.hero-btn {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  color: var(--primary-txt--mode-dark);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hero-btn-disable {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.nav-link,
+.header-phone {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: var(--primary-txt--mode-dark);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-cl);
+}
+
+.header {
+  background-color: #c9c3c3;
 }
